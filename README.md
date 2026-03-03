@@ -1,6 +1,6 @@
 ## Desafio de Composição - Java
 
-Projeto simples desenvolvido para praticar composição em Programação Orientada a Objetos.
+Projeto simples desenvolvido para praticar composição (POO).
 
 A ideia foi modelar um pequeno sistema de compras, trabalhando a relação entre Cliente, Compra, Item e Produto.
 
@@ -10,10 +10,10 @@ A ideia foi modelar um pequeno sistema de compras, trabalhando a relação entre
 - Uma Compra possui vários Itens
 - Um Item associa um Produto a uma quantidade
 
-Cada classe é responsável pelo que realmente faz:
+Cada classe tem uma responsabilidade:
 
-- Compra calcula o total dos seus itens  
-- Cliente calcula o total geral somando suas compras  
+- Compra calcula o total dos seus itens
+- Cliente calcula o total geral somando suas compras
 
 ## O que foi praticado
 
@@ -28,4 +28,4 @@ A classe `Sistema` contém o método `main` com um exemplo de uso, criando compr
 
 ---
 
-Projeto feito com foco em consolidar fundamentos de POO e modelagem.
+Projeto feito com o intuito de consolidar fundamentos de POO e modelagem.
